@@ -9,4 +9,4 @@ BAR-SERVICE:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 system:
     branch: dev
-    version: 2.0.8
+    version: 2.0.9
