@@ -1,9 +1,5 @@
 server:
   port: 9001
-spring:
-  application:
-    name: foo-service
-    profiles: dev
 eureka:
   client:
     serviceUrl:
@@ -14,8 +10,3 @@ BAR-SERVICE:
 system:
     branch: dev
     version: 2.0.8
-management:
- endpoints:
-   web:
-     exposure:
-       include: "*"
