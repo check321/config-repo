@@ -2,7 +2,7 @@ server:
   port: 9001
 spring:
   application:
-    name: service-consumer
+    name: foo-service
     profiles: dev
 eureka:
   client:
